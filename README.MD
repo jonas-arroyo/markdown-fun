@@ -1,22 +1,24 @@
-# This is an H1
+# Use one pound sign for an H1
 
-## This is an H2
+## Use two pound signs for an H2
 
-### This is an H3
+### Use three pound signs for an H3
 
-#### This is an H4
+#### Use four pound signs for an H4
 
-##### This is an H5
+##### Use five pound signs for an H5
 
-###### This is an H6
+###### Use six pound signs for an H6
 
 This is a paragraph. It does not require any special syntax.
 
-**This** is _another_ paragraph.
+Surround content with two astricts in order to make something **bold**
 
-This is a link to [All Paws Rescue](http://www.allpawsrescueok.org/)
+Surrond content with one underscore in order to make it _italicized_
 
-This is code:
+Wrap the content that you want to attach a link to with [brackets](http://www.allpawsrescueok.org/) followed by the URL wrapped in parentheses
+
+Make a code snippet by surrounding your code with three backticks and indicating the language at the begging:
 
 ```python
 def foo():
@@ -24,13 +26,13 @@ def foo():
         return True
 ```
 
-This is an unorganized list:
+Make an unorganized list by using a hyphen before each item:
 
 - Item 1
 - Item 2
 - Item 3
 
-This is a numbered list:
+Make a numbered list by using a number followed by a period for each item. You can do "1. Content" for each item and it will display the numbered list properly:
 
 1. Item 1
 2. Item 2
